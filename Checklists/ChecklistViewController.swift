@@ -49,7 +49,7 @@ class ChecklistViewController: UITableViewController, AddItemViewControllerDeleg
                             cellForRowAt indexPath: IndexPath) ->
     UITableViewCell {
         let cell = tableView.dequeueReusableCell(
-            withIdentifier: "ChecklustItem", for: indexPath)
+            withIdentifier: "ChecklistItem", for: indexPath)
      
         let item = items[indexPath.row]
         
